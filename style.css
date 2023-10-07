@@ -21,15 +21,16 @@ body {
     margin-top: 60px;
 }
 
-.nav-main {
-    position: sticky;
-    top: 0; /* A posição em que o nav ficará fixo (no topo) */
-    background-color: #27242b1c; /* Cor de fundo do nav quando fixo */
-    z-index: 100; /* Ajuste a ordem de empilhamento conforme necessário */
+/*navigation*/
+.sticky-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #17232f13;
 }
 
-/*navigation*/
-.nav-buttons {
+/* Outros estilos para os botões do nav */
+.sticky-nav .nav-buttons {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -37,11 +38,20 @@ body {
     font-size: 2rem;
 }
 
-.nav-buttons p { color: #66D8EC;}
-.nav-buttons p span:first-child{ color: white}
-.nav-buttons p span:nth-child(2){ color: #7B55AE}
+.sticky-nav .nav-buttons p {
+    color: #66D8EC;
+}
 
-.nav-buttons button {
+.sticky-nav .nav-buttons p span:first-child {
+    color: white;
+}
+
+.sticky-nav .nav-buttons p span:nth-child(2) {
+    color: #7B55AE;
+}
+
+
+.sticky-nav .nav-buttons button {
     padding: .4rem;
     font-size: 1.5rem;
     background-color: transparent;
@@ -50,9 +60,10 @@ body {
     cursor: pointer;
 }
 
-.nav-buttons button:hover {
+.sticky-nav .nav-buttons button:hover {
     color: rgb(148, 148, 148);
 }
+
 /*home image background*/
 .background-image {
     background-image: url('img/tamalsen-home-cover.jpg');
