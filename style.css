@@ -26,7 +26,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #17232f13;
+    background-color: #17232f34;
 }
 
 /* Outros estilos para os botões do nav */
@@ -202,7 +202,6 @@ button img {
     border-radius: 5px;
     justify-content: space-between;
     align-items: center;
-    position: relative;
     word-wrap: break-word;
     font-family: "Poppins",Sans-serif;
     font-weight: 600;
