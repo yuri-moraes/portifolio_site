@@ -110,13 +110,14 @@ main {
     text-align: center;
 }
 
-#home button {
+#home a {
     padding: .9rem 5rem;
     font-size: 1.5rem;
     background-color: var(--primary-color);
     color: #fff;
     border: transparent;
     border-radius: 5px;
+    text-decoration: none;
 }
 
 .social-links {
