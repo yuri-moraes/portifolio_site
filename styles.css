@@ -389,6 +389,10 @@ main {
     border-radius: 5px;
     font-weight: 600;
 }
+.contact__form-field textarea {
+    resize: vertical;
+    width: 48.8rem;
+}
 
 .contact__btn {
     width: 30%;
