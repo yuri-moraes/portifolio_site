@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #F5F5F5;
+    font-family: var(--font-default);
+}
+:root {
+    --primary-color: #7843E9;
+    --font-default: 'Source Sans 3', sans-serif;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 100px;
+}
+nav {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.4rem 2rem;
+}
+nav ul li {
+    display: inline;
+    max-width: 2rem;
+    border: solid 3px transparent;
+    border-radius: 5px;
+    padding: .6rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+nav ul li:hover {
+    border: solid 3px var(--primary-color);
+}
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 16px;
+}
+nav a:hover {
+    color: var(--primary-color);
+}
+.profile-section {
+    display: flex;
+}
+.profile-section img {
+    width: 14%;
+    border-radius: 50%;
+}
+.profile-section p {
+    padding: 2rem 0 0 .4rem;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: var(--font-default);
+    color: #333333;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.5s;
+    text-align: center;
+}
+.profile-section p:hover {
+    color: var(--primary-color);
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 5rem;
+    background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url("img/projetos/common-bg.svg");
+    background-size: cover;
+    background-position: center;
+}
+
+.main img {
+    width: 20rem;
+    border-radius: 50%;  
+}
+
+.main button {
+    padding: 0.9rem 5rem;
+    font-size: 1rem;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: transparent;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.main button:hover {
+    background-color: #002D6A;
+    transform: translateY(-3px);
+}
+
+.name h1, h2{
+    border-bottom: solid 2px #002D6A;
+    padding: 1rem 0 .8rem 0;
+    margin: 0 0 1rem 0;
+}
+.description p {
+    font-size: 1.3rem;
+    padding-bottom: .5rem;
+}
+
+.description p span {
+    font-weight: bolder;
+}
