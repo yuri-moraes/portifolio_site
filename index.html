@@ -1,111 +1,202 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yuri Moraes - Front End Developer</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <title>YURI MORAES</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <link rel="shortcut icon" href="img/icon_svg/Y_icon.svg" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto+Mono:wght@100&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="img/Y_icon.svg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap" rel="stylesheet">
 </head>
 <body>
-    <container>
-        <!--Home Background Image-->
-        <div class="background-image"> 
-            <nav class="sticky-nav">
-                <!-- navigation section -->
-                <div class="nav-buttons"> 
-                    <p>Yuri-Moraes<span>.</span><span>_</span></p>
-                    <a href="#home"><button>\\ home</button></a>
-                    <a href="#projects"><button>\\ projects</button></a>
-                    <a href="#experience"><button>\\ experience</button></a>
-                    <a href="#contact"><button>\\ contact</button></a>
-                </div>
-            </nav>
-            <!-- header section / home part -->
-            <header id="home"> 
-                <h1 class="name">YURI MORAES</h1>
-                <p>ANALYSIS AND SYSTEMS DEVELOPMENT</p>
-                <p>FRONT END & PYTHON DEVELOPER. </p>
-                <button><img src="img/down_arrow_icon.png" alt="down_arrow_icon"></button>
-            </header>
+    <header>
+        <nav>
+            <div class="profile-section">
+                <img src="img/profile-1.png" alt="imagem-perfil">
+                <p title="Não faz nada, não clique">Yuri Moraes</p>
+            </div>
+            <ul>
+                <li><a href="#home">Página Inicial</a></li>
+                <li><a href="#about">Sobre Mim</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+                <li><a href="education.html">Formação</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="home">
+            <h1>Olá, meu nome é Yuri</h1>
+            <p>Um Desenvolvedor Web Frontend especializado na construção de sites e aplicativos da Web que levam ao sucesso do projeto.</p>
+            <button class="projects-button">Projetos</button>
         </div>
-
-        <!-- the most important part --> 
-        <main>
-            <!-- projects sections -->
-            <div id="projects"> 
-                <div class="description-projects">
-                    <h1>My</h1>
-                    <h1>Projects</h1>
-                    <p #description-projects>Made by applying DOOM in JS, with responsive layout, <br> input
-                        players' names, automatic alternation of times and winner declaration.</p>
-                
-                </div> 
-                <!-- projects gifs in phone/laptop -->
-                <div class="gif-projects"> 
-                    <img src="img/video/jogo-da-velha-unscreen.gif" alt="jogo-da-velha-celular" loop="false">
-                    <img src="img/video/jogo-da-velha-laptop.gif" alt="jogo-da-velha-celular" loop="false">
-                </div>
-                <img src="img/right-side-arrow.svg" alt="right-side-arrow">
-                <p id="project-name">Jogo da Velha (web)</p>
-                <div class="view-project-button">
-                    <a href="https://yuri-moraes.github.io/jogo-da-velha/" target="_blank">View Project</a>
+        <aside>
+            <ul class="social-links">
+                <li><a href="https://github.com/yuri-moraes" target="_blank"><img src="img/github.svg" alt="github"></a></li>
+                <li><a href="https://www.linkedin.com/in/yuri-moraes-4b018b252/" target="_blank"><img src="img/linkedin.svg" alt="linkedin"></a></li>
+                <li><a href="https://www.instagram.com/morais_yurii/" target="_blank"><img src="img/instagram_icon.svg" alt="instagram"></a></li>
+            </ul>
+        </aside>
+    </main>
+    <div id="about" class="padding-about">
+        <h2>Sobre Mim</h2>
+        <p>Aqui você encontrará mais informações sobre mim, o que faço e minhas habilidades atuais, principalmente em termos de programação e tecnologia.</p>
+    </div>
+    <div class="about">
+        <div class="description-container">
+            <div class="about-description">
+                <h3>Me conheça!</h3>
+                <p>
+                    Eu sou um <span>Desenvolvedor Web Frontend</span> construindo o Frontend de sites e aplicativos da Web que levam ao sucesso do projeto. Confira alguns dos meus projetos na seção <span>Projetos</span>.
+                </p>
             </div>
+            <div class="about-description">
+                <p>
+                    Também gosto de compartilhar conteúdo relacionado às coisas que tenho aprendido ao longo do tempo em <span>Desenvolvimento Web</span>, então posso ajudar outras pessoas na comunidade Dev. Sinta-se à vontade para se conectar ou me seguir no meu <span>LinkedIn</span>, onde eu compartilho conteúdo útil relacionado ao desenvolvimento web e programação.
+                </p>
+            </div>
+            <div class="about-description">
+                <p>
+                    Estou aberto a oportunidades de <span>Trabalho</span> onde posso contribuir, aprender e crescer. Se você tiver uma boa oportunidade que corresponde às minhas habilidades e experiência, não hesite em <span>entrar em contato</span>.
+                </p>
+            </div>
+        </div>
+        <div class="skills">
+            <h3>Minhas Habilidades</h3>
+            <div class="technologies">
+                <div class="tech-item">HTML</div>
+                <div class="tech-item">CSS</div>
+                <div class="tech-item">JavaScript</div>
+                <div class="tech-item">Python</div>
+                <div class="tech-item">GIT</div>
+                <div class="tech-item">Github</div>
+                <div class="tech-item">MySQL básico</div>
+            </div>
+        </div>
+    </div>
+    <section id="projects" class="padding-projects">
+        <div class="projects-container">
+            <h4>Projetos</h4>
+            <p>Aqui encontrará projetos pessoais aprendidos e personalizados que aprendi ao longo do tempo</p>
+            <div class="projects-content">
+                <div class="project-row">
+                    <div class="img-project">
+                        <!-- As imagens dos projetos vão aqui -->
+                        <img src="img/projetos/tictactoe.png" alt="jogo-da-velha">
+                    </div>
+                    <div class="content-project">
+                        <!-- O conteúdo dos projetos vão aqui -->
+                        <h3>Jogo da Velha</h3>
+                        <p>
+                            Projeto criado à partir de DOM com JS, HTML5 e CSS3,
+                            mantendo a responsividade do site.
 
-            <!-- talk about your market expercience -->
-            <div id="experience"> 
-                <h2>Professional</h1>
-                <h2>Experience</h1>
-                <div class="cards-container">
-                    <button class="card">IT support <span>2023 - Present  +</span></button>
-                    <div id="descrition_card"></div>
-                    <button class="card">Paid Traffic Manager <span>2020 - 2021 +</span></button>
-                    <div id="descrition_card"></div>
-                    <button class="card">Creative builder <span>2021 - 2022 +</span></button>
-                    <div id="descrition_card"></div>
+                        </p>
+                        <a href="https://github.com/yuri-moraes/jogo-da-velha" target="_blank"> Acesse</a>
+                    </div>
+                </div>
+                <div class="project-row">
+                    <div class="img-project">
+                        <!-- As imagens dos projetos vão aqui -->
+                        <img src="img/projetos/form.png" alt="formulario">
+                    </div>
+                    <div class="content-project">
+                        <!-- O conteúdo dos projetos vão aqui -->
+                        <h3>Página de Captura</h3>
+                        <p>
+                            Projeto criado à partir de  HTML5 e CSS3 utilizando MailCham para receber 
+                            cadatro de e-mails
+
+                        </p>
+                        <a href="https://github.com/yuri-moraes/pagina-de-captura" target="_blank"> Acesse</a>
+                    </div>
+                </div>
+                <div class="project-row">
+                    <div class="img-project">
+                        <!-- As imagens dos projetos vão aqui -->
+                        <img src="img/projetos/calculator.png" alt="calculator">
+                    </div>
+                    <div class="content-project">
+                        <!-- O conteúdo dos projetos vão aqui -->
+                        <h3>Calculadora</h3>
+                        <p>
+                            Projeto criado à partir de DOM com JS, HTML5 e CSS3,
+                            mantendo a responsividade do site e aprendendo sobre a injeção de JavaScript
+                            no input de dados
+
+                        </p>
+                        <a href="https://github.com/yuri-moraes/Calculator.js" target="_blank"> Acesse</a>
+                    </div>
                 </div>
             </div>
-            
-            <div id="contact">
-                <div class="contact-phrase">
-                    <h3>Available to oppotunities</h3>
-                    <p>Do you want to have me as part of your team? <br>
-                        Send me an email or contact me via instant message!</p>
-                </div>
-                <br>
-                <div class="links">
-                    <div class="link-image">
-                        <a class="chonky-underline-violet has-hover-anim" style="font-size: 130%;" href="mailto:yuri.nogueira.de.moraes@hotmail.com">yuri.nogueira.de.moraes@hotmail.com</a>
-                    </div>
-                    <br>
-                    <div class="link-image">
-                        <img src="img/github_icon.png" alt="github_icon">
-                        <a href="https://github.com/yuri-moraes" target="_blank" rel="noopener noreferrer">Github</a>
-                    </div>
-                    <br>
-                    <div class="link-image">
-                        <img src="img/linkedin_icon.png" alt="github_icon">
-                        <a href="https://www.linkedin.com/in/yuri-moraes-4b018b252/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                    </div>
-                    <br>
-                    <div class="link-image">
-                        <img src="img/instagram_icon.svg" alt="">
-                        <a href="https://www.instagram.com/morais_yurii/" target="_blank" rel="noopener noreferrer">Instagram</a>
-                    </div>
-                    <img class="code-img" src="img/hello-world-html-code-768x384.webp" alt="hello-world-html-code-768x384">
+        </div>
+    </section>
 
-
-                </div>
+    <section id="contact" class="padding-contact">
+        <div class="main-container">
+            <h2>
+                <span class="title-contact">Contato</span>
+                <span class="description-contact">Sinta-se à vontade para entrar em contato 
+                comigo enviando o formulário abaixo e eu enviarei de volta para você o mais rápido possível</span>
+            </h2>
+            <div class="contact-form-container">
+                <form action="#" class="contact__form" method="post"><input type="hidden" name="form-name" value="form 1">
+                    <div class="contact__form-field">
+                      <label class="contact__form-label" for="name">Nome</label>
+                      <input required="" placeholder="Digite seu nome" type="text" class="contact__form-input" name="name" id="name">
+                    </div>
+                    <div class="contact__form-field">
+                      <label class="contact__form-label" for="email">Email</label>
+                      <input required="" placeholder="Digite seu email" type="email" class="contact__form-input" name="email" id="email">
+                    </div>
+                    <div class="contact__form-field">
+                      <label class="contact__form-label" for="message">Mensagem</label>
+                      <textarea required="" cols="30" rows="10" class="contact__form-input" placeholder="Digite sua mensagem" name="message" id="message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--theme contact__btn">
+                      Submit
+                    </button>
+                  </form>
             </div>
+        </div>
+    </section>
 
-        </main>
-
-        <footer>
-        </footer>
-    </container>
+    <footer class="main-footer">
+        <div class="main-container">
+          <div class="main-footer__upper">
+            <div class="main-footer__row main-footer__row-1">
+              <h2 class="heading heading-sm main-footer__heading-sm">
+                <span>Social</span>
+              </h2>
+              <div class="main-footer__social-cont">
+                <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/yuri-moraes-4b018b252/">
+                  <img class="main-footer__icon" src="img/icon_svg/linkedin.svg" alt="Yuri Moraes Linkedin Profile">
+                </a>
+                <a target="_blank" rel="noreferrer" href="https://github.com/yuri-moraes">
+                  <img class="main-footer__icon" src="img/icon_svg/github.svg" alt="yuri-moraes Github Profile">
+                </a>
+                <a target="_blank" rel="noreferrer" href="https://www.instagram.com/morais_yurii/">
+                  <img class="main-footer__icon" src="img/icon_svg/instagram.svg" alt="morais_yurii instagram profile">
+                </a>
+              </div>
+            </div>
+            <div class="main-footer__row main-footer__row-2">
+              <h2 class="heading heading-sm text-lt">Yuri Moraes</h2>
+              <p class="main-footer__short-desc">
+                Um desenvolvedor Web focado em Frontend construindo o
+                Frontend de Sites e Aplicações Web que levam ao sucesso do geral produto
+              </p>
+            </div>
+          </div>
+    
+          <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
+          <div class="main-footer__lower">
+            <p>&copy; 2023 Yuri Moraes - Todos os direitos reservados</p>
+          </div>
+        </div>
+      </footer>
 </body>
 </html>
